@@ -1,2 +1,2 @@
 # lnecel-s-extensions
-supreme-umbrella
+My extension collection.
