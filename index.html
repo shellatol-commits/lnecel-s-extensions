@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lnecel's Extensions</title>
+    <style>
+        body {
+            /* Remove as margens padrão do navegador */
+            margin: 0; 
+            /* Garante que o fundo ocupa toda a altura da página */
+            height: 100vh; 
+            /* Aplica o gradiente do azul escuro para o roxo */
+            background: linear-gradient(135deg, #0b1b3d, #4b0082);
+            /* Evita que o fundo se repita caso a página cresça */
+            background-attachment: fixed; 
+
+           
+          font-family: Arial, Helvetica, sans-serif;
+        }
+.white {
+color: #ffffff;
+}
+    </style>
+<script>
+function copyExtI() {
+  navigator.clipboard.writeText("https://lnecel-s-extensions.vercel.app/exts/projcounters.js")
+    .then(() => alert("Copied!"))
+    .catch(() => alert("Copy failed."));
+}
+function copyExtII() {
+  navigator.clipboard.writeText("https://lnecel-s-extensions.vercel.app/exts/ideplus.js")
+    .then(() => alert("Copied!"))
+    .catch(() => alert("Copy failed."));
+}
+</script>
+
+</head>
+<body>
+<div class="white">
+  <h1>Lnecel's Extensions</h1>
+<h3>Extensions made by me (they need to run without sandbox).</h3>
+</div>
+<div>
+<div style="background-color: white; padding: 20px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); color: black;">
+    <h3>Project Counters</h3>
+Adds a millisecond-based timer that is controlled from the project.
+<div style="background-color: blue; padding: 20px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); color: white; text-align: center;" onclick="copyExtI()">Copy URL</div></div>
+<p>
+<div style="background-color: white; padding: 20px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); color: black;">
+    <h3>IDE+</h3>
+Adds new blocks you should try.
+<div style="background-color: blue; padding: 20px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); color: white; text-align: center;" onclick="copyExtII()">Copy URL</div></div></div>
+
+
+</body>
+</html>
