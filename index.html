@@ -32,6 +32,11 @@ function copyExtII() {
     .then(() => alert("Copied!"))
     .catch(() => alert("Copy failed."));
 }
+function copyExtIII() {
+  navigator.clipboard.writeText("https://lnecel-s-extensions.vercel.app/exts/online.js")
+    .then(() => alert("Copied!"))
+    .catch(() => alert("Copy failed."));
+}
 </script>
 
 </head>
@@ -50,6 +55,11 @@ Adds a millisecond-based timer that is controlled from the project.
     <h3>IDE+</h3>
 Adds new blocks you should try.
 <div style="background-color: blue; padding: 20px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); color: white; text-align: center;" onclick="copyExtII()">Copy URL</div></div></div>
+    <p>
+        <div style="background-color: white; padding: 20px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); color: black;">
+    <h3>Internet Detection</h3>
+Adds an "Online?" block.
+<div style="background-color: blue; padding: 20px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); color: white; text-align: center;" onclick="copyExtIII()">Copy URL</div></div></div>
 
 
 </body>
